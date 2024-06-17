@@ -28,6 +28,7 @@ class HomeScreen extends StatelessWidget {
           'UF: ${data['uf']}'; // Formata o resultado da consulta, ao receber essa informação a tela exibe esses dados usando o Text()
     } else {
       _result = 'CEP não encontrado'; // CEP não encontrado
+
     }
   }
 
